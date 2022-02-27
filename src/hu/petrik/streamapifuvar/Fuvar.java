@@ -28,55 +28,27 @@ public class Fuvar {
         return taxiId;
     }
 
-    public void setTaxiId(int taxiId) {
-        this.taxiId = taxiId;
-    }
-
     public LocalDateTime getIndulas() {
         return indulas;
-    }
-
-    public void setIndulas(LocalDateTime indulas) {
-        this.indulas = indulas;
     }
 
     public int getIdotartam() {
         return idotartam;
     }
 
-    public void setIdotartam(int idotartam) {
-        this.idotartam = idotartam;
-    }
-
     public double getTavolsag() {
         return tavolsag;
-    }
-
-    public void setTavolsag(double tavolsag) {
-        this.tavolsag = tavolsag;
     }
 
     public double getViteldij() {
         return viteldij;
     }
 
-    public void setViteldij(double viteldij) {
-        this.viteldij = viteldij;
-    }
-
     public double getBorravalo() {
         return borravalo;
     }
 
-    public void setBorravalo(double borravalo) {
-        this.borravalo = borravalo;
-    }
-
     public String getFizetesModja() {
         return fizetesModja;
-    }
-
-    public void setFizetesModja(String fizetesModja) {
-        this.fizetesModja = fizetesModja;
     }
 }
